@@ -10,17 +10,19 @@ header{
     background-color: rgb(202, 201, 201);
     height: 7vh;
     width: 80%;
-    margin-top: 1rem;
+    margin-top: -8.5rem;
     justify-self: center;
     justify-content: center;
     align-items: center;
     display: flex;
     border-radius: 30px;
+    position: fixed;
+    z-index: 1000;
 }
 
 .logo-header {
     position: absolute;
-    left: 12vw;
+    left: 1vw;
 }
 
 .logo-header img{
@@ -56,7 +58,7 @@ header{
 
 .pesquisa{
     position: absolute;
-    right: 12vw;
+    right: 2vw;
 }
 
 .pesquisa textarea{
@@ -77,7 +79,7 @@ header{
 /* Header */
 
 .mais-vendidos{
-    margin-top: 5rem;
+    margin-top: 10rem;
     justify-content: center;
     display: flex;
     text-align: center;
@@ -133,9 +135,9 @@ header{
 /* Mais Vendidos(Home) */
 
 .produtos {
+    margin-top: 5rem;
     justify-content: center;
-    margin-top: 17rem;
-    height: 90vh;
+    height: 100vh;
     align-content: center;
 }
 
@@ -172,6 +174,12 @@ header{
     font-weight: bold;
     font-size: 16px;
     gap: 15px;
+    text-align: center;
+    transition: ease 0.3s;
+}
+
+.card-produtos:hover{
+    transform: scale(1.05);
 }
 
 .card-produtos img{
@@ -179,6 +187,20 @@ header{
     width: 100%;
     height: 50%;
 }
+
+.botao-compras{
+    background-color: #3F795E;
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+.texto-produtos{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0.5rem;
+}
+
 /* Produtos */
 
 .contato {
@@ -191,9 +213,182 @@ header{
 }
 
 .card-contato{
-    width: 25vw;
-    height: 50vh;
+    width: 35vw;
+    height: 53vh;
     background-color: #3F795E;
     border: 0;
     border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo-contato{
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.card-contato form{
+    margin-top: 2.5rem;
+}
+
+.card-contato input{
+    transition: ease 0.3s;
+}
+
+.card-contato input:hover{
+    transform: scale(1.05);
+}
+
+.nome{
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    height: 4vh;
+    width: 12vw;
+    margin-right: 2rem;
+}
+
+.ddd{
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    width: 5vw;
+    height: 4vh;
+}
+
+.telefone{
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    height: 4vh;
+}
+
+.formulario textarea{
+    margin-top: 1.5rem;
+    width: 80%;
+    border-radius: 10px;
+    height: 20vh;
+    padding: 8px;
+    transition: ease 0.3s;
+}
+
+.formulario textarea:hover{
+    transform: scale(1.03);
+}
+
+.formulario button{
+    padding: 5px;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: white;
+    width: 5.5vw;
+    height: 4.5vh;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.formulario button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px black;
+}
+
+/* Contato */
+
+footer{
+    background-color: black;
+    height: 25vh;
+    background-color: rgb(202, 201, 201);
+    display: flex;
+    justify-content: center;
+}
+
+.suporte {
+    padding: 3rem;
+}
+
+.suporte h1{
+    text-align: left;
+    margin-top: 0.2rem;
+    font-size: 24px;
+}
+
+.suporte ul{
+    color: #3F795E;
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+.suporte li{
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.suporte li:hover{
+    transform: scale(1.03);
+}
+
+.institucional {
+    padding: 3rem;
+}
+
+.institucional h1{
+    text-align: left;
+    margin-top: 0.2rem;
+    font-size: 24px;
+}
+
+.institucional ul{
+    color: #3F795E;
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+.institucional li{
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.institucional li:hover{
+    transform: scale(1.03);
+}
+
+.destaques {
+    padding: 3rem;
+}
+
+.destaques li:hover{
+    transform: scale(1.03);
+}
+
+.destaques h1{
+    text-align: left;
+    margin-top: 0.2rem;
+    font-size: 24px;
+}
+
+.destaques ul{
+    color: #3F795E;
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+.destaques li{
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.destaques li:hover{
+    transform: scale(1.03);
 }
