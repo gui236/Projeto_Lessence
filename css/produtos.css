@@ -10,7 +10,7 @@ header{
     background-color: rgb(202, 201,  201);
     height: 7vh;
     width: 80vw;
-    margin-top: -8.5rem;
+    margin-top: -7.5rem;
     justify-self: center;
     justify-content: center;
     align-items: center;
@@ -97,11 +97,10 @@ header{
 
 /* Header */
 
-.mais-vendidos{
-    margin-top: 10rem;
-    justify-content: center;
-    display: flex;
+main{
     text-align: center;
+    justify-content: center;
+    padding-bottom: 20vh;
 }
 
 .divisoria {
@@ -110,80 +109,19 @@ header{
     border: 5px solid #3F795E;
 }
 
-.titulo{
-    font-size: 24px;
-    font-weight: bold;
+main h1{
+    margin-top: 9rem;
 }
 
-.container-card {
-    margin-top: 5rem;
-    gap: 2rem;
+.area-produtos{
     display: flex;
     justify-content: center;
+    gap: 30px;
+    
 }
 
-.card {
-    width: 15vw;
-    height: 40vh;
-    border-radius: 15px;
-    border: 0px;
-    box-shadow: 5px 5px 12px black;
-    background-color: rgb(204, 204, 204);
-    overflow: hidden;
-    text-align: center;
-    font-weight: bold;
-    font-size: 16px;
-    transition: ease 0.3s;
-}
-
-.card:hover{
-    transform: scale(1.05);
-}
-
-.card span {
-    font-size: 14px;
-    font-weight: normal;
-}
-
-.card img{
-    max-width: 100%;
-    width: 100%;
-    height: 60%;
-}
-
-/* Mais Vendidos(Home) */
-
-.produtos {
-    margin-top: 5rem;
-    justify-content: center;
-    height: 100vh;
-    align-content: center;
-}
-
-.produtos-titulo{
-    display: flex;
-    justify-self: center;
-    width: 60%;
-    height: 8vh;
-    border: 0px;
-    background-color: #3F795E;
-    border-radius: 15px;
-    text-align: center;
-    align-items: center;
-    font-weight: bold;
-    justify-content: center;
-    font-size: 24px;
-    color: white;
-}
-
-.container-produtos{
-    margin-top: 5rem;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.card-produtos {
+.card-produtos{
+    margin-top: 8rem;
     height: 40vh;
     width: 15vw;
     background-color: whitesmoke;
@@ -207,124 +145,33 @@ header{
     height: 50%;
 }
 
-.botao-compras{
-    background-color: #3F795E;
-    padding: 7px;
-    border-radius: 10px;
-    color: white;
-}
-
-.texto-produtos{
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0.5rem;
-}
-
-/* Produtos */
-
-.contato {
-    justify-content: center;
-    margin-top: 0;
-    height: 90vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.card-contato{
-    width: 35vw;
-    height: 53vh;
-    background-color: #3F795E;
-    border: 0;
-    border-radius: 15px;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    justify-content: center;
-    text-align: center;
-}
-
-.titulo-contato{
+.card-produtos h1{
+    margin-top: 1rem;
     text-align: left;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    font-size: 30px;
+    margin-left: 1rem;
     font-weight: bold;
-    color: white;
+    font-size: 16px;
 }
 
-.card-contato form{
-    margin-top: 2.5rem;
-}
-
-.card-contato input{
+.card-produtos h1 a{
+    color: #3F795E;
+    position: relative;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+    font-size: 30px;
     transition: ease 0.3s;
 }
 
-.card-contato input:hover{
-    transform: scale(1.05);
-}
-
-.nome{
-    border-radius: 10px;
-    border: none;
-    padding: 8px;
-    height: 4vh;
-    width: 12vw;
-    margin-right: 2rem;
-}
-
-.ddd{
-    border-radius: 10px;
-    border: none;
-    padding: 8px;
-    width: 5vw;
-    height: 4vh;
-}
-
-.telefone{
-    border-radius: 10px;
-    border: none;
-    padding: 8px;
-    height: 4vh;
-}
-
-.formulario textarea{
-    margin-top: 1.5rem;
-    width: 80%;
-    border-radius: 10px;
-    height: 20vh;
-    padding: 8px;
-    transition: ease 0.3s;
-}
-
-.formulario textarea:hover{
-    transform: scale(1.03);
-}
-
-.formulario button{
-    padding: 5px;
-    margin-top: 2.5rem;
+.card-produtos h2{
+    font-weight: normal;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    background-color: white;
-    width: 5.5vw;
-    height: 4.5vh;
-    border: none;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 15px;
-    cursor: pointer;
-    transition: ease 0.3s;
 }
 
-.formulario button:hover{
-    background-color: rgb(202, 201, 201);
-    transform: scale(1.1);
-    box-shadow: 0 0 5px black;
-}
-
-/* Contato */
+/* Main */
 
 footer{
     background-color: black;
