@@ -197,6 +197,10 @@ header{
     transition: ease 0.3s;
 }
 
+.card-produtos a{
+    text-decoration: none;
+}
+
 .card-produtos:hover{
     transform: scale(1.05);
 }
